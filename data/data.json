@@ -1,0 +1,391 @@
+{
+  "site": {
+    "branding": {
+      "name": "La Pêche Ténébreuse",
+      "tagline": "Expertise marine & réparation de coques",
+      "logo": {
+        "text": "⛵ La Pêche Ténébreuse",
+        "icon": "⛵"
+      }
+    },
+    "navigation": {
+      "links": [
+        { "label": "Accueil", "href": "index.html" },
+        { "label": "Services", "href": "services.html" },
+        { "label": "À propos", "href": "a-propos.html" },
+        { "label": "Contact", "href": "contact.html" }
+      ],
+      "cta": {
+        "label": "Demander un devis",
+        "href": "devis.html",
+        "primary": true
+      }
+    },
+    "footer": {
+      "description": "Votre partenaire de confiance pour la réparation et l'entretien de vos bateaux. Expertise, qualité et réactivité au service des passionnés de la mer.",
+      "contact": {
+        "phone": "+33 6 12 34 56 78",
+        "email": "contact@peche-tenebreuse.fr",
+        "zone": "Côte Atlantique / Ports alentours",
+        "horaires": "Lun - Ven: 8h - 18h | Sam: 9h - 12h"
+      },
+      "links": [
+        { "label": "Mentions légales", "href": "#" },
+        { "label": "CGV", "href": "#" },
+        { "label": "Politique de confidentialité", "href": "#" }
+      ],
+      "copyright": "© 2024 La Pêche Ténébreuse. Tous droits réservés."
+    },
+    "seo": {
+      "default": {
+        "title": "La Pêche Ténébreuse - Réparation de bateaux et expertise marine",
+        "description": "Spécialiste en réparation de coques, stratification, peinture, gelcoat et antifouling. Intervention port et chantier sur la Côte Atlantique.",
+        "keywords": "réparation bateau, coque, stratification, peinture bateau, gelcoat, antifouling, chantier naval, Côte Atlantique"
+      },
+      "og": {
+        "image": "https://via.placeholder.com/1200x630",
+        "type": "website",
+        "site_name": "La Pêche Ténébreuse"
+      }
+    },
+    "stats": {
+      "experience": "+10 ans d'expérience",
+      "interventions": "Intervention Port & chantier",
+      "satisfaction": "100% de satisfaction client",
+      "reactive": "Réactivité 24/48h"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Expertise marine & réparation de coques",
+        "subtitle": "Votre bateau mérite le meilleur. Nous rénovons, réparons et entretenons vos embarcations avec passion et professionnalisme.",
+        "cta": {
+          "primary": {
+            "label": "Demander un devis",
+            "href": "devis.html"
+          },
+          "secondary": {
+            "label": "Découvrir nos services",
+            "href": "services.html"
+          }
+        }
+      },
+      "expertises": {
+        "title": "Nos expertises",
+        "subtitle": "Des compétences complètes pour tous vos besoins de réparation et d'entretien",
+        "items": [
+          {
+            "icon": "🔧",
+            "title": "Réparation de coques",
+            "description": "Stratification, reprise d'impacts, réparation de fissures. Diagnostic précis et intervention rapide."
+          },
+          {
+            "icon": "🎨",
+            "title": "Peinture & Gelcoat",
+            "description": "Application professionnelle de peinture marine et restauration de gelcoat pour un rendu impeccable."
+          },
+          {
+            "icon": "🛡️",
+            "title": "Antifouling",
+            "description": "Protection efficace contre les salissures et organismes marins. Formulations adaptées à votre navigation."
+          },
+          {
+            "icon": "✨",
+            "title": "Entretien & Rénovation",
+            "description": "Polissage, lustrage, petites réparations et remise en état complète de votre embarcation."
+          }
+        ]
+      },
+      "beforeAfter": {
+        "title": "Transformation garantie",
+        "subtitle": "Découvrez nos réalisations",
+        "description": "Chaque projet est unique. Nous transformons vos bateaux avec soin et expertise pour leur redonner leur éclat d'origine."
+      },
+      "whyUs": {
+        "title": "Pourquoi nous choisir ?",
+        "subtitle": "L'excellence au service de votre passion",
+        "items": [
+          {
+            "icon": "⭐",
+            "title": "Expertise reconnue",
+            "description": "Plus de 10 ans d'expérience dans la réparation et l'entretien de bateaux de toutes tailles."
+          },
+          {
+            "icon": "⚡",
+            "title": "Réactivité",
+            "description": "Intervention rapide sur port et chantier. Devis sous 24-48h et planning flexible."
+          },
+          {
+            "icon": "✅",
+            "title": "Qualité garantie",
+            "description": "Utilisation de matériaux haut de gamme et techniques professionnelles pour des résultats durables."
+          },
+          {
+            "icon": "🤝",
+            "title": "Accompagnement personnalisé",
+            "description": "Conseils sur mesure, transparence des tarifs et suivi de votre projet de A à Z."
+          }
+        ]
+      }
+    },
+    "about": {
+      "hero": {
+        "title": "À propos de nous",
+        "subtitle": "Une passion pour la mer et l'excellence"
+      },
+      "story": {
+        "title": "Notre histoire",
+        "content": "Fondée il y a plus de 10 ans, La Pêche Ténébreuse est née de la passion de marins pour le travail bien fait. Spécialisés dans la réparation et l'entretien de coques, nous avons développé une expertise reconnue sur la Côte Atlantique.\n\nNotre équipe de professionnels combine savoir-faire traditionnel et techniques modernes pour répondre à tous vos besoins : de la petite réparation à la rénovation complète, en passant par la stratification, la peinture et l'antifouling.\n\nNous intervenons directement sur votre lieu de mise à l'eau ou sur notre chantier, toujours avec le même objectif : redonner vie à votre bateau avec qualité et passion."
+      },
+      "values": {
+        "title": "Nos valeurs",
+        "items": [
+          {
+            "title": "Excellence",
+            "description": "Nous ne transigeons pas sur la qualité des matériaux et des finitions. Chaque projet est traité avec le plus grand soin."
+          },
+          {
+            "title": "Transparence",
+            "description": "Tarifs clairs, devis détaillés, pas de surprises. Nous vous informons à chaque étape de votre projet."
+          },
+          {
+            "title": "Passion",
+            "description": "Nous aimons ce que nous faisons et cela se ressent dans notre travail. Votre bateau est entre de bonnes mains."
+          },
+          {
+            "title": "Proximité",
+            "description": "Équipe accessible, conseils personnalisés et suivi attentif. Votre satisfaction est notre priorité."
+          }
+        ]
+      },
+      "method": {
+        "title": "Notre méthode",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Diagnostic",
+            "description": "Inspection approfondie de votre bateau pour identifier précisément les besoins et établir un diagnostic complet."
+          },
+          {
+            "number": "2",
+            "title": "Devis détaillé",
+            "description": "Proposition claire et transparente avec description des travaux, matériaux et délais de réalisation."
+          },
+          {
+            "number": "3",
+            "title": "Intervention",
+            "description": "Réalisation des travaux avec des techniques professionnelles et des matériaux de qualité supérieure."
+          },
+          {
+            "number": "4",
+            "title": "Livraison & Suivi",
+            "description": "Contrôle qualité et remise en main propre. Suivi post-intervention pour garantir votre satisfaction."
+          }
+        ]
+      }
+    },
+    "services": {
+      "hero": {
+        "title": "Nos services",
+        "subtitle": "Des solutions complètes pour l'entretien et la réparation de votre bateau"
+      },
+      "intro": {
+        "text": "Nous proposons une gamme complète de services pour répondre à tous vos besoins. Nos tarifs sont indicatifs et peuvent varier selon la complexité de l'intervention. Un devis personnalisé sera établi après diagnostic.",
+        "warning": "Tarifs indicatifs, devis final après diagnostic"
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Contactez-nous",
+        "subtitle": "Nous sommes à votre écoute pour tous vos projets"
+      },
+      "intro": {
+        "text": "Pour toute demande d'information, de devis ou d'intervention, n'hésitez pas à nous contacter. Notre équipe vous répondra dans les plus brefs délais."
+      }
+    },
+    "devis": {
+      "hero": {
+        "title": "Demander un devis",
+        "subtitle": "Remplissez le formulaire ci-dessous pour recevoir un devis personnalisé"
+      },
+      "intro": {
+        "text": "Plus d'informations vous fournissez, plus précis sera notre devis. N'hésitez pas à détailler vos besoins et à joindre des photos si nécessaire."
+      }
+    }
+  },
+  "services": {
+    "categories": [
+      {
+        "id": "coque",
+        "name": "Coque & Structure",
+        "icon": "🔧"
+      },
+      {
+        "id": "finition",
+        "name": "Finition & Peinture",
+        "icon": "🎨"
+      },
+      {
+        "id": "entretien",
+        "name": "Entretien & Maintenance",
+        "icon": "✨"
+      },
+      {
+        "id": "packs",
+        "name": "Packs & Formules",
+        "icon": "📦"
+      }
+    ],
+    "services": [
+      {
+        "id": "repair-coque",
+        "name": "Réparation de coque",
+        "category": "coque",
+        "description": "Stratification, réparation d'impacts et de fissures sur coque polyester, alu ou bois.",
+        "descriptionLong": "Intervention complète pour restaurer l'intégrité de votre coque : analyse des dommages, préparation des surfaces, stratification avec résine époxy ou polyester, ponçage et finition. Nous travaillons sur tous types de matériaux et tailles de bateaux.",
+        "price": 220,
+        "priceFrom": true,
+        "unit": "forfait",
+        "unitLabel": "petite zone",
+        "note": "Devis au m² pour zones plus importantes",
+        "popular": true,
+        "badge": "Populaire"
+      },
+      {
+        "id": "gelcoat",
+        "name": "Gelcoat & Finition",
+        "category": "finition",
+        "description": "Application et restauration de gelcoat pour un rendu neuf et une protection optimale.",
+        "descriptionLong": "Travail de qualité professionnelle sur le gelcoat : ponçage, rebouchage, application de nouvelle couche de gelcoat, polissage final. Résultat impeccable et durable qui redonne l'aspect neuf à votre embarcation.",
+        "price": 180,
+        "priceFrom": true,
+        "unit": "m²",
+        "unitLabel": "m²",
+        "note": "Prix selon état initial et complexité",
+        "popular": false
+      },
+      {
+        "id": "peinture-coque",
+        "name": "Peinture de coque",
+        "category": "finition",
+        "description": "Application de peinture marine haut de gamme avec préparation soignée des surfaces.",
+        "descriptionLong": "Peinture de coque professionnelle avec préparation complète : ponçage, rebouchage, primaires adaptés, application de peinture polyuréthane ou époxy. Finitions soignées pour un résultat durable et esthétique.",
+        "price": 35,
+        "priceFrom": true,
+        "unit": "m²",
+        "unitLabel": "m²",
+        "note": "Hors préparation (devis séparé)",
+        "popular": true
+      },
+      {
+        "id": "antifouling",
+        "name": "Antifouling",
+        "category": "entretien",
+        "description": "Application d'antifouling adapté à votre type de navigation (eaux douces, salées, vitesse).",
+        "descriptionLong": "Protection efficace contre les salissures et organismes marins. Nous proposons différentes formulations selon votre navigation : eaux douces ou salées, vitesse du bateau, fréquence de navigation. Préparation et application professionnelles.",
+        "price": 25,
+        "priceFrom": true,
+        "unit": "m²",
+        "unitLabel": "m²",
+        "note": "Produits haute performance inclus",
+        "popular": true
+      },
+      {
+        "id": "polissage",
+        "name": "Polissage & Lustrage",
+        "category": "entretien",
+        "description": "Redonnez l'éclat d'origine à votre gelcoat avec un polissage professionnel.",
+        "descriptionLong": "Service complet de polissage : décapage, ponçage progressif, lustrage et protection finale. Redonne vie aux coques ternies et oxydées. Résultat spectaculaire garanti.",
+        "price": 15,
+        "priceFrom": true,
+        "unit": "m²",
+        "unitLabel": "m²",
+        "note": "Selon état initial",
+        "popular": false
+      },
+      {
+        "id": "impact-fissure",
+        "name": "Reprise d'impact / Fissure",
+        "category": "coque",
+        "description": "Réparation rapide et efficace des impacts, éclats et fissures sur coque.",
+        "descriptionLong": "Intervention ciblée pour réparer impacts, éclats et fissures. Diagnostic précis, préparation minutieuse, stratification locale et finition invisible. Travail soigné pour restaurer l'intégrité et l'esthétique.",
+        "price": 120,
+        "priceFrom": true,
+        "unit": "forfait",
+        "unitLabel": "intervention",
+        "note": "Prix indicatif selon taille et complexité",
+        "popular": false
+      },
+      {
+        "id": "diagnostic",
+        "name": "Diagnostic & Inspection",
+        "category": "coque",
+        "description": "Inspection complète de votre bateau pour identifier les besoins en réparation ou entretien.",
+        "descriptionLong": "Expertise approfondie avec rapport détaillé des constats, préconisations et estimation. Diagnostic complet de la coque, pont, gréement. Coût déductible du devis si intervention suite au diagnostic.",
+        "price": 60,
+        "priceFrom": false,
+        "unit": "forfait",
+        "unitLabel": "diagnostic",
+        "note": "Déductible si devis signé",
+        "popular": false
+      },
+      {
+        "id": "main-oeuvre",
+        "name": "Main d'œuvre",
+        "category": "coque",
+        "description": "Intervention à la demande pour travaux spécifiques nécessitant notre expertise.",
+        "descriptionLong": "Prestation de main d'œuvre qualifiée pour tous types de travaux sur mesure. Tarification horaire pour interventions ponctuelles ou complémentaires.",
+        "price": 55,
+        "priceFrom": false,
+        "unit": "heure",
+        "unitLabel": "heure",
+        "note": "Travaux sur mesure",
+        "popular": false
+      },
+      {
+        "id": "pack-remise-eau",
+        "name": "Pack Remise à l'eau",
+        "category": "packs",
+        "description": "Formule complète pour préparer votre bateau à la remise à l'eau : nettoyage, inspection, antifouling, petite mécanique.",
+        "descriptionLong": "Solution tout-en-un pour votre remise à l'eau : nettoyage complet, inspection de sécurité, application antifouling, vérification mécanique de base, préparation avant remise à l'eau. Gain de temps et tranquillité d'esprit.",
+        "price": 490,
+        "priceFrom": true,
+        "unit": "forfait",
+        "unitLabel": "pack complet",
+        "note": "Selon taille du bateau (jusqu'à 10m)",
+        "popular": true,
+        "badge": "Populaire"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Quels sont vos délais d'intervention ?",
+        "answer": "Nous nous efforçons de répondre à toutes les demandes rapidement. Pour un devis, comptez 24 à 48h. Pour une intervention, les délais varient selon la période et la complexité des travaux. Nous vous proposerons toujours plusieurs créneaux possibles."
+      },
+      {
+        "question": "Intervenez-vous directement sur le port ou sur chantier ?",
+        "answer": "Les deux ! Nous pouvons intervenir directement sur votre lieu de mise à l'eau (port, marina) ou accueillir votre bateau sur notre chantier si les travaux le nécessitent. Nous étudions chaque cas pour vous proposer la solution la plus adaptée."
+      },
+      {
+        "question": "Les tarifs indiqués sont-ils fixes ?",
+        "answer": "Nos tarifs sont indicatifs et peuvent varier selon la complexité de l'intervention, l'état initial du bateau, la taille et les matériaux. Chaque projet étant unique, nous établissons toujours un devis personnalisé après diagnostic pour garantir transparence et précision."
+      },
+      {
+        "question": "Garantissez-vous vos interventions ?",
+        "answer": "Oui, toutes nos interventions sont garanties. La durée de garantie varie selon le type de prestation (généralement 6 à 12 mois). Nous restons à votre écoute en cas de problème et intervenons rapidement si nécessaire."
+      },
+      {
+        "question": "Travaillez-vous sur tous types de bateaux ?",
+        "answer": "Nous intervenons sur tous types d'embarcations : voiliers, bateaux à moteur, semi-rigides, etc. Nous travaillons sur différents matériaux (polyester, aluminium, bois) et adaptons nos techniques en conséquence."
+      },
+      {
+        "question": "Quels moyens de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les paiements par chèque, virement bancaire et espèces. Un acompte peut être demandé pour les gros chantiers. Le solde est à régler à la livraison après contrôle qualité."
+      }
+    ]
+  }
+}
