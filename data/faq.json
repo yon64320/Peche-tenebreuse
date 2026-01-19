@@ -1,0 +1,29 @@
+{
+  "title": "Questions fréquentes",
+  "items": [
+    {
+      "question": "Quels sont vos délais d'intervention ?",
+      "answer": "Nous nous efforçons de répondre à toutes les demandes rapidement. Pour un devis, comptez 24 à 48h. Pour une intervention, les délais varient selon la période et la complexité des travaux. Nous vous proposerons toujours plusieurs créneaux possibles."
+    },
+    {
+      "question": "Intervenez-vous directement sur le port ou sur chantier ?",
+      "answer": "Les deux ! Nous pouvons intervenir directement sur votre lieu de mise à l'eau (port, marina) ou accueillir votre bateau sur notre chantier si les travaux le nécessitent. Nous étudions chaque cas pour vous proposer la solution la plus adaptée."
+    },
+    {
+      "question": "Les tarifs indiqués sont-ils fixes ?",
+      "answer": "Nos tarifs sont indicatifs et peuvent varier selon la complexité de l'intervention, l'état initial du bateau, la taille et les matériaux. Chaque projet étant unique, nous établissons toujours un devis personnalisé après diagnostic pour garantir transparence et précision."
+    },
+    {
+      "question": "Garantissez-vous vos interventions ?",
+      "answer": "Oui, toutes nos interventions sont garanties. La durée de garantie varie selon le type de prestation (généralement 6 à 12 mois). Nous restons à votre écoute en cas de problème et intervenons rapidement si nécessaire."
+    },
+    {
+      "question": "Travaillez-vous sur tous types de bateaux ?",
+      "answer": "Nous intervenons sur tous types d'embarcations : voiliers, bateaux à moteur, semi-rigides, etc. Nous travaillons sur différents matériaux (polyester, aluminium, bois) et adaptons nos techniques en conséquence."
+    },
+    {
+      "question": "Quels moyens de paiement acceptez-vous ?",
+      "answer": "Nous acceptons les paiements par chèque, virement bancaire et espèces. Un acompte peut être demandé pour les gros chantiers. Le solde est à régler à la livraison après contrôle qualité."
+    }
+  ]
+}

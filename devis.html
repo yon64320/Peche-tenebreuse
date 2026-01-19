@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demandez un devis personnalisé pour la réparation ou l'entretien de votre bateau. Formulaire détaillé et récapitulatif automatique.">
+  <meta property="og:title" content="Demander un devis - La Pêche Ténébreuse">
+  <meta property="og:description" content="Formulaire de demande de devis personnalisé pour vos besoins de réparation de bateaux.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630">
+  <title>Demander un devis - La Pêche Ténébreuse</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="container" id="navbar">
+      <!-- Navbar générée par JavaScript -->
+      <div class="loading" id="loading" style="display: none;">Chargement...</div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <!-- Contenu généré par JavaScript -->
+    </section>
+
+    <!-- Intro Section -->
+    <section class="section" id="intro">
+      <!-- Contenu généré par JavaScript -->
+    </section>
+
+    <!-- Devis Form Section -->
+    <section class="section">
+      <div class="container">
+        <form id="devis-form" class="devis-summary" style="max-width: 900px; margin: 0 auto;">
+          <h2 style="margin-bottom: 2rem; color: var(--color-secondary);">Formulaire de demande de devis</h2>
+          
+          <!-- Informations client -->
+          <div class="summary-section">
+            <h3 class="summary-title">Informations client</h3>
+            
+            <div class="form-group">
+              <label for="name" class="form-label required">Nom complet</label>
+              <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label required">Email</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label required">Téléphone</label>
+              <input type="tel" id="phone" name="phone" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Informations bateau -->
+          <div class="summary-section">
+            <h3 class="summary-title">Informations bateau</h3>
+            
+            <div class="form-group">
+              <label for="boat-type" class="form-label required">Type de bateau</label>
+              <select id="boat-type" name="boat-type" class="form-select" required>
+                <option value="">Sélectionnez...</option>
+                <option value="voilier">Voilier</option>
+                <option value="moteur">Bateau à moteur</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="boat-length" class="form-label required">Longueur (en mètres)</label>
+              <input type="number" id="boat-length" name="boat-length" class="form-input" min="0" max="100" step="0.1" required>
+            </div>
+
+            <div class="form-group">
+              <label for="boat-material" class="form-label">Matériau</label>
+              <select id="boat-material" name="boat-material" class="form-select">
+                <option value="">Sélectionnez...</option>
+                <option value="polyester">Polyester</option>
+                <option value="aluminium">Aluminium</option>
+                <option value="bois">Bois</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="boat-year" class="form-label">Année</label>
+              <input type="number" id="boat-year" name="boat-year" class="form-input" min="1900" max="2025">
+            </div>
+          </div>
+
+          <!-- Besoin -->
+          <div class="summary-section">
+            <h3 class="summary-title">Besoin</h3>
+            
+            <div class="form-group">
+              <label class="form-label required">Services souhaités</label>
+              <div id="services-select">
+                <!-- Contenu généré par JavaScript -->
+              </div>
+              <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-top: 0.5rem;">
+                Sélectionnez un ou plusieurs services. Plus d'informations = devis plus précis.
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label for="description" class="form-label">Description détaillée de votre besoin</label>
+              <textarea id="description" name="description" class="form-textarea" placeholder="Décrivez en détail les travaux souhaités, l'état actuel du bateau, les zones concernées, etc."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="urgence" class="form-label">Niveau d'urgence</label>
+              <select id="urgence" name="urgence" class="form-select">
+                <option value="faible">Faible</option>
+                <option value="moyenne" selected>Moyenne</option>
+                <option value="forte">Forte</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Localisation -->
+          <div class="summary-section">
+            <h3 class="summary-title">Localisation</h3>
+            
+            <div class="form-group">
+              <label for="location-ville" class="form-label">Ville</label>
+              <input type="text" id="location-ville" name="location-ville" class="form-input">
+            </div>
+
+            <div class="form-group">
+              <label for="location-port" class="form-label">Port / Marina</label>
+              <input type="text" id="location-port" name="location-port" class="form-input">
+            </div>
+          </div>
+
+          <!-- Pièces jointes -->
+          <div class="summary-section">
+            <h3 class="summary-title">Informations complémentaires</h3>
+            
+            <div class="form-group">
+              <label for="photos-links" class="form-label">Liens vers des photos</label>
+              <textarea id="photos-links" name="photos-links" class="form-textarea" placeholder="Collez ici les liens (URL) vers des photos de votre bateau si disponibles (Google Drive, Dropbox, etc.). Indiquez une URL par ligne."></textarea>
+              <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-top: 0.5rem;">
+                ⚠️ Pas d'upload direct possible (uniquement des liens vers des services de stockage en ligne).
+              </p>
+            </div>
+          </div>
+
+          <!-- RGPD -->
+          <div class="form-checkbox">
+            <input type="checkbox" id="rgpd" name="rgpd" required>
+            <label for="rgpd">J'accepte le traitement de mes données personnelles pour le traitement de ma demande de devis (RGPD)</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Valider ma demande de devis</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Devis Summary Section -->
+    <section class="section" id="devis-summary" style="display: none;">
+      <!-- Récapitulatif généré par JavaScript -->
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <!-- Footer généré par JavaScript -->
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/page-devis.js"></script>
+</body>
+</html>

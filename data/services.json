@@ -1,0 +1,145 @@
+{
+  "categories": [
+    {
+      "id": "coque",
+      "name": "Coque & Structure",
+      "icon": "🔧"
+    },
+    {
+      "id": "finition",
+      "name": "Finition & Peinture",
+      "icon": "🎨"
+    },
+    {
+      "id": "entretien",
+      "name": "Entretien & Maintenance",
+      "icon": "✨"
+    },
+    {
+      "id": "packs",
+      "name": "Packs & Formules",
+      "icon": "📦"
+    }
+  ],
+  "services": [
+    {
+      "id": "repair-coque",
+      "name": "Réparation de coque",
+      "category": "coque",
+      "description": "Stratification, réparation d'impacts et de fissures sur coque polyester, alu ou bois.",
+      "descriptionLong": "Intervention complète pour restaurer l'intégrité de votre coque : analyse des dommages, préparation des surfaces, stratification avec résine époxy ou polyester, ponçage et finition. Nous travaillons sur tous types de matériaux et tailles de bateaux.",
+      "price": 220,
+      "priceFrom": true,
+      "unit": "forfait",
+      "unitLabel": "petite zone",
+      "note": "Devis au m² pour zones plus importantes",
+      "popular": true,
+      "badge": "Populaire"
+    },
+    {
+      "id": "gelcoat",
+      "name": "Gelcoat & Finition",
+      "category": "finition",
+      "description": "Application et restauration de gelcoat pour un rendu neuf et une protection optimale.",
+      "descriptionLong": "Travail de qualité professionnelle sur le gelcoat : ponçage, rebouchage, application de nouvelle couche de gelcoat, polissage final. Résultat impeccable et durable qui redonne l'aspect neuf à votre embarcation.",
+      "price": 180,
+      "priceFrom": true,
+      "unit": "m²",
+      "unitLabel": "m²",
+      "note": "Prix selon état initial et complexité",
+      "popular": false
+    },
+    {
+      "id": "peinture-coque",
+      "name": "Peinture de coque",
+      "category": "finition",
+      "description": "Application de peinture marine haut de gamme avec préparation soignée des surfaces.",
+      "descriptionLong": "Peinture de coque professionnelle avec préparation complète : ponçage, rebouchage, primaires adaptés, application de peinture polyuréthane ou époxy. Finitions soignées pour un résultat durable et esthétique.",
+      "price": 35,
+      "priceFrom": true,
+      "unit": "m²",
+      "unitLabel": "m²",
+      "note": "Hors préparation (devis séparé)",
+      "popular": true
+    },
+    {
+      "id": "antifouling",
+      "name": "Antifouling",
+      "category": "entretien",
+      "description": "Application d'antifouling adapté à votre type de navigation (eaux douces, salées, vitesse).",
+      "descriptionLong": "Protection efficace contre les salissures et organismes marins. Nous proposons différentes formulations selon votre navigation : eaux douces ou salées, vitesse du bateau, fréquence de navigation. Préparation et application professionnelles.",
+      "price": 25,
+      "priceFrom": true,
+      "unit": "m²",
+      "unitLabel": "m²",
+      "note": "Produits haute performance inclus",
+      "popular": true
+    },
+    {
+      "id": "polissage",
+      "name": "Polissage & Lustrage",
+      "category": "entretien",
+      "description": "Redonnez l'éclat d'origine à votre gelcoat avec un polissage professionnel.",
+      "descriptionLong": "Service complet de polissage : décapage, ponçage progressif, lustrage et protection finale. Redonne vie aux coques ternies et oxydées. Résultat spectaculaire garanti.",
+      "price": 15,
+      "priceFrom": true,
+      "unit": "m²",
+      "unitLabel": "m²",
+      "note": "Selon état initial",
+      "popular": false
+    },
+    {
+      "id": "impact-fissure",
+      "name": "Reprise d'impact / Fissure",
+      "category": "coque",
+      "description": "Réparation rapide et efficace des impacts, éclats et fissures sur coque.",
+      "descriptionLong": "Intervention ciblée pour réparer impacts, éclats et fissures. Diagnostic précis, préparation minutieuse, stratification locale et finition invisible. Travail soigné pour restaurer l'intégrité et l'esthétique.",
+      "price": 120,
+      "priceFrom": true,
+      "unit": "forfait",
+      "unitLabel": "intervention",
+      "note": "Prix indicatif selon taille et complexité",
+      "popular": false
+    },
+    {
+      "id": "diagnostic",
+      "name": "Diagnostic & Inspection",
+      "category": "coque",
+      "description": "Inspection complète de votre bateau pour identifier les besoins en réparation ou entretien.",
+      "descriptionLong": "Expertise approfondie avec rapport détaillé des constats, préconisations et estimation. Diagnostic complet de la coque, pont, gréement. Coût déductible du devis si intervention suite au diagnostic.",
+      "price": 60,
+      "priceFrom": false,
+      "unit": "forfait",
+      "unitLabel": "diagnostic",
+      "note": "Déductible si devis signé",
+      "popular": false
+    },
+    {
+      "id": "main-oeuvre",
+      "name": "Main d'œuvre",
+      "category": "coque",
+      "description": "Intervention à la demande pour travaux spécifiques nécessitant notre expertise.",
+      "descriptionLong": "Prestation de main d'œuvre qualifiée pour tous types de travaux sur mesure. Tarification horaire pour interventions ponctuelles ou complémentaires.",
+      "price": 55,
+      "priceFrom": false,
+      "unit": "heure",
+      "unitLabel": "heure",
+      "note": "Travaux sur mesure",
+      "popular": false
+    },
+    {
+      "id": "pack-remise-eau",
+      "name": "Pack Remise à l'eau",
+      "category": "packs",
+      "description": "Formule complète pour préparer votre bateau à la remise à l'eau : nettoyage, inspection, antifouling, petite mécanique.",
+      "descriptionLong": "Solution tout-en-un pour votre remise à l'eau : nettoyage complet, inspection de sécurité, application antifouling, vérification mécanique de base, préparation avant remise à l'eau. Gain de temps et tranquillité d'esprit.",
+      "price": 490,
+      "priceFrom": true,
+      "unit": "forfait",
+      "unitLabel": "pack complet",
+      "note": "Selon taille du bateau (jusqu'à 10m)",
+      "popular": true,
+      "badge": "Populaire"
+    }
+  ]
+}
